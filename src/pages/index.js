@@ -57,7 +57,7 @@ export default function LandingPage() {
       <Image 
                  alt=""
         loading="lazy"
-        src="/hero-Image.png"
+        src="/hero-img.png"
         className="mt-10 w-full aspect-[2.33] max-md:mt-10 max-md:max-w-full"
       />
     </div>
@@ -335,7 +335,7 @@ export default function LandingPage() {
           <Image 
                  alt=""
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/164e6724c281df5e7e7ee0afcd5d296044f7b13c6892f357599b2b00daf2ab96?"
+            src="/analytics.png"
             className="self-stretch my-auto w-full aspect-square max-md:mt-10"
           />
         </div>
