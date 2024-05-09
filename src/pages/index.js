@@ -362,7 +362,7 @@ export default function LandingPage() {
                 className="self-center aspect-[3.85] w-[230px]"
               />
               <div className="mt-10 font-thin">
-                {" "}
+                
                 Stop wasting time in unproductive meetings. With our app's
                 streamlined interface
               </div>
@@ -377,7 +377,7 @@ export default function LandingPage() {
                 className="self-center aspect-[3.85] w-[230px]"
               />
               <div className="mt-10 font-thin">
-                {" "}
+                
                 Stop wasting time in unproductive meetings. With our app's
                 streamlined interface
               </div>
@@ -392,7 +392,7 @@ export default function LandingPage() {
                 className="self-center aspect-[3.85] w-[230px]"
               />
               <div className="mt-10 font-thin">
-                {" "}
+                
                 Stop wasting time in unproductive meetings. With our app's
                 streamlined interface
               </div>
@@ -407,7 +407,7 @@ export default function LandingPage() {
                 className="self-center aspect-[3.85] w-[230px]"
               />
               <div className="mt-10 font-thin">
-                {" "}
+                
                 Stop wasting time in unproductive meetings. With our app's
                 streamlined interface
               </div>
@@ -426,7 +426,7 @@ export default function LandingPage() {
                 className="self-center aspect-[3.85] w-[230px]"
               />
               <div className="mt-10 font-thin">
-                {" "}
+                
                 Stop wasting time in unproductive meetings. With our app's
                 streamlined interface
               </div>
@@ -441,7 +441,7 @@ export default function LandingPage() {
                 className="self-center aspect-[3.85] w-[230px]"
               />
               <div className="mt-10 font-thin">
-                {" "}
+                
                 Stop wasting time in unproductive meetings. With our app's
                 streamlined interface
               </div>
@@ -456,7 +456,7 @@ export default function LandingPage() {
                 className="self-center aspect-[3.85] w-[230px]"
               />
               <div className="mt-10 font-thin">
-                {" "}
+                
                 Stop wasting time in unproductive meetings. With our app's
                 streamlined interface
               </div>
@@ -470,7 +470,7 @@ export default function LandingPage() {
                 src="/menuine.png"
               />
               <div className="mt-10 font-thin">
-                {" "}
+                
                 Stop wasting time in unproductive meetings. With our app's
                 streamlined interface
               </div>
@@ -490,7 +490,7 @@ export default function LandingPage() {
       <div className="mt-4 font-thin text-2xl tracking-tight leading-10 text-center text-white max-md:max-w-full">
         A data dashboard is a tool that collects and analyzes data, including
         key performance indicators (KPI), metrics, and other data points that
-        monitor progress over time.{" "}
+        monitor progress over time.
       </div>
       <div className="flex gap-2 self-center mt-6 max-w-full text-base w-[429px] max-md:flex-wrap">
       <input
