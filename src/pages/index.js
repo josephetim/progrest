@@ -477,9 +477,12 @@ export default function LandingPage() {
         monitor progress over time.{" "}
       </div>
       <div className="flex gap-2 self-center mt-6 max-w-full text-base w-[429px] max-md:flex-wrap">
-        <div className="justify-center items-start p-4 text-white border border-white border-solid bg-white bg-opacity-0 rounded-[120px] max-md:pr-5">
-          Your email address
-        </div>
+      <input
+      placeholder="Your email address"
+      className=" h-10 mt-6 justify-center items-start px-4 text-white border border-white border-solid bg-white bg-opacity-0 rounded-[120px] max-md:pr-5"
+    />
+         
+        
         <div className="justify-center self-start px-6 py-4 mt-6 text-base font-bold text-white border border-orange-400 border-solid rounded-[120px] max-md:px-5 cursor-pointer transition duration-300 ease-in-out bg-transparent hover:bg-gradient-to-b from-[#FC8E51] to-[#FA61F9]">
       Learn More
     </div>
