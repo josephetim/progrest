@@ -6,21 +6,12 @@ export default function LandingPage() {
         WebkitBackgroundClip: 'text',
         WebkitTextFillColor: 'transparent',
           };
-          const gradientFrom = '#FC8E51';
-  const gradientTo = '#FA61F9';
 
-  const buttonStyle = {
-    background: "transparent"
-  }
-
-  const hoverStyle = {
-    background: `linear-gradient(to bottom, ${gradientTo}, ${gradientFrom})`,
-    color: 'white',
-  };
     return (
         <div style={{background:"#120101"}}>
             <div className="flex gap-5 justify-between self-center px-5 w-full text-base max-w-[1040px] max-md:flex-wrap max-md:max-w-full">
-            <Image
+            <Image 
+                 alt="" 
                 loading="lazy"
                 src="/logo.png"
                 className="shrink-0 my-auto max-w-full aspect-[4.76] w-[154px]"
@@ -51,7 +42,8 @@ export default function LandingPage() {
       </div>
       <div className="flex gap-2.5 justify-center self-center mt-6 text-base">
         <div className="flex gap-2 justify-center px-6 py-4 text-white border border-white border-solid rounded-[120px] max-md:px-5">
-          <Image
+          <Image 
+                 alt=""
             loading="lazy"
             src="/Play.png"
             className="shrink-0 w-6 aspect-square"
@@ -62,7 +54,8 @@ export default function LandingPage() {
           Try now Free
         </div>
       </div>
-      <Image
+      <Image 
+                 alt=""
         loading="lazy"
         src="/hero-Image.png"
         className="mt-10 w-full aspect-[2.33] max-md:mt-10 max-md:max-w-full"
@@ -70,27 +63,32 @@ export default function LandingPage() {
     </div>
     <div className="flex justify-center align-center">
     <div className="flex gap-5 justify-around items-center self-center px-20 mt-6 w-full max-w-[1040px] max-md:flex-wrap max-md:px-5 max-md:max-w-full">
-      <Image
+      <Image 
+                 alt=""
         loading="lazy"
         src="/Amazon.png"
         className="shrink-0 w-20 aspect-[3.33]"
       />
-      <Image
+      <Image 
+                 alt=""
         loading="lazy"
         src="/Microsoft.png"
         className="shrink-0 max-w-full aspect-[4.76] w-[113px]"
       />
-      <Image
+      <Image 
+                 alt=""
         loading="lazy"
         src="/Deloitte.png"
         className="shrink-0 max-w-full aspect-[4.55] w-[111px]"
       />
-      <Image
+      <Image 
+                 alt=""
         loading="lazy"
         src="/Walmart.png"
         className="shrink-0 max-w-full aspect-[4.17] w-[101px]"
       />
-      <Image
+      <Image 
+                 alt=""
         loading="lazy"
         src="/Samsung.png"
         className="shrink-0 max-w-full aspect-[6.67] w-[157px]"
@@ -116,7 +114,8 @@ export default function LandingPage() {
         </div>
         <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col grow justify-end px-10 pt-10 w-full rounded-3xl bg-[linear-gradient(180deg,#FC8E51_0%,#FA61F9_100%)] max-md:mt-10 max-md:max-w-full">
-            <Image
+            <Image 
+                 alt=""
               loading="lazy"
               src="/sales.png"
               className="w-full aspect-[1.39] max-md:max-w-full"
@@ -129,7 +128,8 @@ export default function LandingPage() {
       <div className="flex gap-5 max-md:flex-col max-md:gap-0">
         <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col grow items-end pl-6 w-full rounded-3xl bg-[linear-gradient(180deg,#FC8E51_0%,#FA61F9_100%)] max-md:mt-10 max-md:max-w-full">
-            <Image
+            <Image 
+                 alt=""
               loading="lazy"
               src="/marketing.png"
               className="max-w-full w-[full]"
@@ -164,7 +164,8 @@ export default function LandingPage() {
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow px-6 py-6 w-full text-white rounded-lg border border-orange-400 border-solid backdrop-blur-[20px] bg-white bg-opacity-10 max-md:px-5 max-md:mt-5">
-              <Image
+              <Image 
+                 alt=""
                 loading="lazy"
                 src="/ic-1.png"
                 className="w-8 aspect-square"
@@ -178,7 +179,8 @@ export default function LandingPage() {
           </div>
           <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow px-6 py-6 w-full text-white rounded-lg border border-orange-400 border-solid backdrop-blur-[20px] bg-white bg-opacity-10 max-md:px-5 max-md:mt-5">
-              <Image
+              <Image 
+                 alt=""
                 loading="lazy"
                 src="/ic-2.png"
                 className="w-8 aspect-square"
@@ -192,7 +194,8 @@ export default function LandingPage() {
           </div>
           <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow px-6 py-6 w-full text-white rounded-lg border border-orange-400 border-solid backdrop-blur-[20px] bg-white bg-opacity-10 max-md:px-5 max-md:mt-5">
-              <Image
+              <Image 
+                 alt=""
                 loading="lazy"
                 src="/ic-3.png"
                 className="w-8 aspect-square"
@@ -210,7 +213,8 @@ export default function LandingPage() {
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow px-6 py-6 w-full text-white rounded-lg border border-orange-400 border-solid backdrop-blur-[20px] bg-white bg-opacity-10 max-md:px-5 max-md:mt-5">
-              <Image
+              <Image 
+                 alt=""
                 loading="lazy"
                 src="/ic-1.png"
                 className="w-8 aspect-square"
@@ -224,7 +228,8 @@ export default function LandingPage() {
           </div>
           <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow px-6 py-6 w-full text-white rounded-lg border border-orange-400 border-solid backdrop-blur-[20px] bg-white bg-opacity-10 max-md:px-5 max-md:mt-5">
-              <Image
+              <Image 
+                 alt=""
                 loading="lazy"
                 src="/ic-2.png"
                 className="w-8 aspect-square"
@@ -238,7 +243,8 @@ export default function LandingPage() {
           </div>
           <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow px-6 py-6 w-full text-white rounded-lg border border-orange-400 border-solid backdrop-blur-[20px] bg-white bg-opacity-10 max-md:px-5 max-md:mt-5">
-              <Image
+              <Image 
+                 alt=""
                 loading="lazy"
                 src="/ic-3.png"
                 className="w-8 aspect-square"
@@ -299,7 +305,8 @@ export default function LandingPage() {
         </div>
         <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
           <div className="flex flex-col justify-center mt-1.5 w-full rounded-xl bg-[linear-gradient(180deg,#FC8E51_0%,#FA61F9_100%)] max-md:mt-10 max-md:max-w-full">
-            <Image className="flex flex-col items-start px-16 pt-12 rounded-3xl bg-white bg-opacity-10 max-md:pl-5 max-md:max-w-full" 
+            <Image 
+                 alt="" className="flex flex-col items-start px-16 pt-12 rounded-3xl bg-white bg-opacity-10 max-md:pl-5 max-md:max-w-full" 
             loading="lazy"
             src="/revenue.png"
             />
@@ -325,7 +332,8 @@ export default function LandingPage() {
           </div>
         </div>
         <div className="flex flex-col ml-5 w-[26%] max-md:ml-0 max-md:w-full">
-          <Image
+          <Image 
+                 alt=""
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/164e6724c281df5e7e7ee0afcd5d296044f7b13c6892f357599b2b00daf2ab96?"
             className="self-stretch my-auto w-full aspect-square max-md:mt-10"
@@ -347,7 +355,8 @@ export default function LandingPage() {
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow text-xl leading-8 text-white max-md:mt-10">
-              <Image
+              <Image 
+                 alt=""
                 loading="lazy"
                 src="/granded.png"
                 className="self-center aspect-[3.85] w-[230px]"
@@ -361,7 +370,8 @@ export default function LandingPage() {
           </div>
           <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow text-xl leading-8 text-white max-md:mt-10">
-              <Image
+              <Image 
+                 alt=""
                 loading="lazy"
                 src="/menuine.png"
                 className="self-center aspect-[3.85] w-[230px]"
@@ -375,7 +385,8 @@ export default function LandingPage() {
           </div>
           <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow text-xl leading-8 text-white max-md:mt-10">
-              <Image
+              <Image 
+                 alt=""
                 loading="lazy"
                 src="/kaligo.png"
                 className="self-center aspect-[3.85] w-[230px]"
@@ -389,7 +400,8 @@ export default function LandingPage() {
           </div>
           <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow text-xl leading-8 text-white max-md:mt-10">
-              <Image
+              <Image 
+                 alt=""
                 loading="lazy"
                 src="/atrium.png"
                 className="self-center aspect-[3.85] w-[230px]"
@@ -407,7 +419,8 @@ export default function LandingPage() {
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow text-xl leading-8 text-white max-md:mt-10">
-              <Image
+              <Image 
+                 alt=""
                 loading="lazy"
                 src="/kaligo.png"
                 className="self-center aspect-[3.85] w-[230px]"
@@ -421,7 +434,8 @@ export default function LandingPage() {
           </div>
           <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow text-xl leading-8 text-white max-md:mt-10">
-              <Image
+              <Image 
+                 alt=""
                 loading="lazy"
                 src="/atrium.png"
                 className="self-center aspect-[3.85] w-[230px]"
@@ -435,7 +449,8 @@ export default function LandingPage() {
           </div>
           <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow text-xl leading-8 text-white max-md:mt-10">
-              <Image
+              <Image 
+                 alt=""
                 loading="lazy"
                 src="/mount-rain.png"
                 className="self-center aspect-[3.85] w-[230px]"
@@ -449,7 +464,8 @@ export default function LandingPage() {
           </div>
           <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow text-xl leading-8 text-white max-md:mt-10">
-              <Image
+              <Image 
+                 alt=""
                 loading="lazy"
                 src="/menuine.png"
               />
@@ -492,7 +508,8 @@ export default function LandingPage() {
     <div className="flex flex-col justify-center px-20 pt-6 pb-10 mt-6 w-full max-md:px-5 max-md:max-w-full">
       <div className="flex gap-5 items-start max-md:flex-wrap">
         <div className="flex flex-col self-stretch px-4 py-6">
-          <Image
+          <Image 
+                 alt=""
             loading="lazy"
             src="/logo.png"
             className="max-w-full aspect-[4.76] w-[154px]"
@@ -503,12 +520,14 @@ export default function LandingPage() {
             innovative marketing campaigns.
           </div>
           <div className="flex gap-5 pr-20 mt-6 max-md:pr-5">
-            <Image
+            <Image 
+                 alt=""
               loading="lazy"
               src="/app-store.png"
               className="shrink-0 max-w-full aspect-[2.94] w-[117px]"
             />
-            <Image
+            <Image 
+                 alt=""
               loading="lazy"
               src="/play-store.png"
               className="shrink-0 max-w-full aspect-[2.94] w-[117px]"
