@@ -363,7 +363,7 @@ export default function LandingPage() {
               />
               <div className="mt-10 font-thin">
                 
-                Stop wasting time in unproductive meetings. With our app's
+                Stop wasting time in unproductive meetings. With our app&apos;s
                 streamlined interface
               </div>
             </div>
@@ -378,7 +378,7 @@ export default function LandingPage() {
               />
               <div className="mt-10 font-thin">
                 
-                Stop wasting time in unproductive meetings. With our app's
+                Stop wasting time in unproductive meetings. With our app&apos;s
                 streamlined interface
               </div>
             </div>
@@ -393,7 +393,7 @@ export default function LandingPage() {
               />
               <div className="mt-10 font-thin">
                 
-                Stop wasting time in unproductive meetings. With our app's
+                Stop wasting time in unproductive meetings. With our app&apos;s
                 streamlined interface
               </div>
             </div>
@@ -408,7 +408,7 @@ export default function LandingPage() {
               />
               <div className="mt-10 font-thin">
                 
-                Stop wasting time in unproductive meetings. With our app's
+                Stop wasting time in unproductive meetings. With our app&apos;s
                 streamlined interface
               </div>
             </div>
@@ -427,7 +427,7 @@ export default function LandingPage() {
               />
               <div className="mt-10 font-thin">
                 
-                Stop wasting time in unproductive meetings. With our app's
+                Stop wasting time in unproductive meetings. With our app&apos;s
                 streamlined interface
               </div>
             </div>
@@ -442,7 +442,7 @@ export default function LandingPage() {
               />
               <div className="mt-10 font-thin">
                 
-                Stop wasting time in unproductive meetings. With our app's
+                Stop wasting time in unproductive meetings. With our app&apos;s
                 streamlined interface
               </div>
             </div>
@@ -457,7 +457,7 @@ export default function LandingPage() {
               />
               <div className="mt-10 font-thin">
                 
-                Stop wasting time in unproductive meetings. With our app's
+                Stop wasting time in unproductive meetings. With our app&apos;s
                 streamlined interface
               </div>
             </div>
@@ -471,7 +471,7 @@ export default function LandingPage() {
               />
               <div className="mt-10 font-thin">
                 
-                Stop wasting time in unproductive meetings. With our app's
+                Stop wasting time in unproductive meetings. With our app&apos;s
                 streamlined interface
               </div>
             </div>
