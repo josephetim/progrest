@@ -1,27 +1,27 @@
 import "@/app/globals.css"
 import Image from "next/image";
-import amazon from "/Amazon.png";
-import analytics from "/analytics.png";
-import appStore from "/app-store.png";
-import atrium from "/atrium.png";
-import deloitte from "/Deloitte.png";
-import granded from "/granded.png";
-import heroImg from "/hero-img.png";
-import icon1 from "/ic-1.png";
-import icon2 from "/ic-2.png";
-import icon3 from "/ic-3.png";
-import kaligo from "/kaligo.png";
-import logo from "/logo.png";
-import marketing from "/marketing.png";
-import menuine from "/menuine.png";
-import microsoft from "/microsoft.png";
-import mountRain from "/mount-rain.png";
-import playStore from "/play-store.png";
-import Play from "/Play.png";
-import revenue from "/revenue.png";
-import sales from "/sales.png";
-import samsung from "/Samsung.png";
-import walmart from "/Walmart.png";
+import amazon from "@/assets/Amazon.png";
+import analytics from "@/assets/analytics.png";
+import appStore from "@/assets/app-store.png";
+import atrium from "@/assets/atrium.png";
+import deloitte from "@/assets/Deloitte.png";
+import granded from "@/assets/granded.png";
+import heroImg from "@/assets/hero-img.png";
+import icon1 from "@/assets/ic-1.png";
+import icon2 from "@/assets/ic-2.png";
+import icon3 from "@/assets/ic-3.png";
+import kaligo from "@/assets/kaligo.png";
+import logo from "@/assets/logo.png";
+import marketing from "@/assets/marketing.png";
+import menuine from "@/assets/menuine.png";
+import microsoft from "@/assets/microsoft.png";
+import mountRain from "@/assets/mount-rain.png";
+import playStore from "@/assets/play-store.png";
+import Play from "@/assets/Play.png";
+import revenue from "@/assets/revenue.png";
+import sales from "@/assets/sales.png";
+import samsung from "@/assets/Samsung.png";
+import walmart from "@/assets/Walmart.png";
 
 export default function LandingPage() {
     const gradientStyle = {
@@ -31,8 +31,8 @@ export default function LandingPage() {
           };
 
     return (
-        <div style={{background:"#120101"}}>
-            <div className="flex gap-5 justify-between self-center px-5 w-full text-base max-w-[1040px] max-md:flex-wrap max-md:max-w-full">
+        <div className="py-10" style={{background:"#120101"}}>
+            <div className=" flex gap-5 justify-between self-center px-5 w-full text-base max-w-full max-md:flex-wrap max-md:max-w-full">
             <Image 
                 alt="" 
                
@@ -47,7 +47,7 @@ export default function LandingPage() {
             <div>Contact</div>
             <div>Pricing</div>
         </div>
-        <div className="justify-center px-6 py-4 font-bold text-white border border-orange-400 border-solid rounded-[100px] max-md:px-5">
+        <div className="cursor-pointer transition duration-300 ease-in-out bg-transparent hover:bg-gradient-to-b from-[#FC8E51] to-[#FA61F9] justify-center px-6 py-4 font-bold text-white border border-orange-400 border-solid rounded-[100px] max-md:px-5">
             Get Started
         </div>
         </div>
@@ -492,6 +492,7 @@ export default function LandingPage() {
                  alt=""
                 loading="lazy"
                 src={menuine}
+                className="self-center aspect-[3.85] w-[230px]"
               />
               <div className="mt-10 font-thin">
                 
@@ -502,7 +503,7 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
-      <div className="mt-20 mb-4 text-3xl font-bold leading-10 text-center text-white underline max-md:mt-10 max-md:max-w-full">
+      <div className="cursor-pointer mt-20 mb-4 text-3xl font-bold leading-10 text-center text-white underline max-md:mt-10 max-md:max-w-full">
         View All Partners
       </div>
     </div>
@@ -519,7 +520,7 @@ export default function LandingPage() {
       <div className="flex gap-2 self-center mt-6 max-w-full text-base w-[429px] max-md:flex-wrap">
       <input
       placeholder="Your email address"
-      className=" h-10 mt-6 justify-center items-start px-4 text-white border border-white border-solid bg-white bg-opacity-0 rounded-[120px] max-md:pr-5"
+      className=" h-10 mt-8 justify-center items-start px-4 text-white border border-white border-solid bg-white bg-opacity-0 rounded-[120px] max-md:pr-5"
     />
          
         
@@ -548,13 +549,13 @@ export default function LandingPage() {
                  alt=""
               loading="lazy"
               src={appStore}
-              className="shrink-0 max-w-full aspect-[2.94] w-[117px]"
+              className="cursor-pointer shrink-0 max-w-full aspect-[2.94] w-[117px]"
             />
             <Image 
                  alt=""
               loading="lazy"
               src={playStore}
-              className="shrink-0 max-w-full aspect-[2.94] w-[117px]"
+              className="cursor-pointer shrink-0 max-w-full aspect-[2.94] w-[117px]"
             />
           </div>
         </div>
