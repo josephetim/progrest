@@ -1,5 +1,28 @@
 import "@/app/globals.css"
 import Image from "next/image";
+import amazon from "/Amazon.png";
+import analytics from "/analytics.png";
+import appStore from "/app-store.png";
+import atrium from "/atrium.png";
+import deloitte from "/Deloitte.png";
+import granded from "/granded.png";
+import heroImg from "/hero-img.png";
+import icon1 from "/ic-1.png";
+import icon2 from "/ic-2.png";
+import icon3 from "/ic-3.png";
+import kaligo from "/kaligo.png";
+import logo from "/logo.png";
+import marketing from "/marketing.png";
+import menuine from "/menuine.png";
+import microsoft from "/microsoft.png";
+import mountRain from "/mount-rain.png";
+import playStore from "/play-store.png";
+import Play from "/Play.png";
+import revenue from "/revenue.png";
+import sales from "/sales.png";
+import samsung from "/Samsung.png";
+import walmart from "/Walmart.png";
+
 export default function LandingPage() {
     const gradientStyle = {
         background: `linear-gradient(to right, ${"#FC8E51"}, ${"#FA61F9"})`,
@@ -11,9 +34,10 @@ export default function LandingPage() {
         <div style={{background:"#120101"}}>
             <div className="flex gap-5 justify-between self-center px-5 w-full text-base max-w-[1040px] max-md:flex-wrap max-md:max-w-full">
             <Image 
-                 alt="" 
+                alt="" 
+               
                 loading="lazy"
-                src="/logo.png"
+                src={logo}
                 className="shrink-0 my-auto max-w-full aspect-[4.76] w-[154px]"
             />
         <div className="flex gap-5 justify-between px-6 py-4 font-medium text-white whitespace-nowrap backdrop-blur-[20px] bg-white bg-opacity-0 rounded-[120px] max-md:flex-wrap max-md:px-5">
@@ -45,7 +69,7 @@ export default function LandingPage() {
           <Image 
                  alt=""
             loading="lazy"
-            src="/Play.png"
+            src={Play}
             className="shrink-0 w-6 aspect-square"
           />
           <div>Demo Video</div>
@@ -55,9 +79,9 @@ export default function LandingPage() {
         </div>
       </div>
       <Image 
-                 alt=""
+        alt=""
         loading="lazy"
-        src="/hero-img.png"
+        src={heroImg}
         className="mt-10 w-full aspect-[2.33] max-md:mt-10 max-md:max-w-full"
       />
     </div>
@@ -66,31 +90,31 @@ export default function LandingPage() {
       <Image 
                  alt=""
         loading="lazy"
-        src="/Amazon.png"
+        src={amazon}
         className="shrink-0 w-20 aspect-[3.33]"
       />
       <Image 
                  alt=""
         loading="lazy"
-        src="/Microsoft.png"
+        src={microsoft}
         className="shrink-0 max-w-full aspect-[4.76] w-[113px]"
       />
       <Image 
                  alt=""
         loading="lazy"
-        src="/Deloitte.png"
+        src={deloitte}
         className="shrink-0 max-w-full aspect-[4.55] w-[111px]"
       />
       <Image 
                  alt=""
         loading="lazy"
-        src="/Walmart.png"
+        src={walmart}
         className="shrink-0 max-w-full aspect-[4.17] w-[101px]"
       />
       <Image 
                  alt=""
         loading="lazy"
-        src="/Samsung.png"
+        src={samsung}
         className="shrink-0 max-w-full aspect-[6.67] w-[157px]"
       />
     </div>
@@ -117,7 +141,7 @@ export default function LandingPage() {
             <Image 
                  alt=""
               loading="lazy"
-              src="/sales.png"
+              src={sales}
               className="w-full aspect-[1.39] max-md:max-w-full"
             />
           </div>
@@ -131,7 +155,7 @@ export default function LandingPage() {
             <Image 
                  alt=""
               loading="lazy"
-              src="/marketing.png"
+              src={marketing}
               className="max-w-full w-[full]"
             />
           </div>
@@ -167,7 +191,7 @@ export default function LandingPage() {
               <Image 
                  alt=""
                 loading="lazy"
-                src="/ic-1.png"
+                src={icon1}
                 className="w-8 aspect-square"
               />
               <div className="mt-4 text-2xl font-bold">Account management</div>
@@ -182,7 +206,7 @@ export default function LandingPage() {
               <Image 
                  alt=""
                 loading="lazy"
-                src="/ic-2.png"
+                src={icon2}
                 className="w-8 aspect-square"
               />
               <div className="mt-4 text-2xl font-bold">Budgeting tools</div>
@@ -197,7 +221,7 @@ export default function LandingPage() {
               <Image 
                  alt=""
                 loading="lazy"
-                src="/ic-3.png"
+                src={icon3}
                 className="w-8 aspect-square"
               />
               <div className="mt-4 text-2xl font-bold">Investment tools</div>
@@ -216,7 +240,7 @@ export default function LandingPage() {
               <Image 
                  alt=""
                 loading="lazy"
-                src="/ic-1.png"
+                src={icon1}
                 className="w-8 aspect-square"
               />
               <div className="mt-4 text-2xl font-bold">Account management</div>
@@ -231,7 +255,7 @@ export default function LandingPage() {
               <Image 
                  alt=""
                 loading="lazy"
-                src="/ic-2.png"
+                src={icon2}
                 className="w-8 aspect-square"
               />
               <div className="mt-4 text-2xl font-bold">Budgeting tools</div>
@@ -246,7 +270,7 @@ export default function LandingPage() {
               <Image 
                  alt=""
                 loading="lazy"
-                src="/ic-3.png"
+                src={icon3}
                 className="w-8 aspect-square"
               />
               <div className="mt-4 text-2xl font-bold">Investment tools</div>
@@ -308,7 +332,7 @@ export default function LandingPage() {
             <Image 
                  alt="" className="flex flex-col items-start px-16 pt-12 rounded-3xl bg-white bg-opacity-10 max-md:pl-5 max-md:max-w-full" 
             loading="lazy"
-            src="/revenue.png"
+            src={revenue}
             />
           </div>
         </div>
@@ -335,7 +359,7 @@ export default function LandingPage() {
           <Image 
                  alt=""
             loading="lazy"
-            src="/analytics.png"
+            src={analytics}
             className="self-stretch my-auto w-full aspect-square max-md:mt-10"
           />
         </div>
@@ -358,7 +382,7 @@ export default function LandingPage() {
               <Image 
                  alt=""
                 loading="lazy"
-                src="/granded.png"
+                src={granded}
                 className="self-center aspect-[3.85] w-[230px]"
               />
               <div className="mt-10 font-thin">
@@ -373,7 +397,7 @@ export default function LandingPage() {
               <Image 
                  alt=""
                 loading="lazy"
-                src="/menuine.png"
+                src={menuine}
                 className="self-center aspect-[3.85] w-[230px]"
               />
               <div className="mt-10 font-thin">
@@ -388,7 +412,7 @@ export default function LandingPage() {
               <Image 
                  alt=""
                 loading="lazy"
-                src="/kaligo.png"
+                src={kaligo}
                 className="self-center aspect-[3.85] w-[230px]"
               />
               <div className="mt-10 font-thin">
@@ -403,7 +427,7 @@ export default function LandingPage() {
               <Image 
                  alt=""
                 loading="lazy"
-                src="/atrium.png"
+                src={atrium}
                 className="self-center aspect-[3.85] w-[230px]"
               />
               <div className="mt-10 font-thin">
@@ -422,7 +446,7 @@ export default function LandingPage() {
               <Image 
                  alt=""
                 loading="lazy"
-                src="/kaligo.png"
+                src={kaligo}
                 className="self-center aspect-[3.85] w-[230px]"
               />
               <div className="mt-10 font-thin">
@@ -437,7 +461,7 @@ export default function LandingPage() {
               <Image 
                  alt=""
                 loading="lazy"
-                src="/atrium.png"
+                src={atrium}
                 className="self-center aspect-[3.85] w-[230px]"
               />
               <div className="mt-10 font-thin">
@@ -452,7 +476,7 @@ export default function LandingPage() {
               <Image 
                  alt=""
                 loading="lazy"
-                src="/mount-rain.png"
+                src={mountRain}
                 className="self-center aspect-[3.85] w-[230px]"
               />
               <div className="mt-10 font-thin">
@@ -467,7 +491,7 @@ export default function LandingPage() {
               <Image 
                  alt=""
                 loading="lazy"
-                src="/menuine.png"
+                src={menuine}
               />
               <div className="mt-10 font-thin">
                 
@@ -511,7 +535,7 @@ export default function LandingPage() {
           <Image 
                  alt=""
             loading="lazy"
-            src="/logo.png"
+            src={logo}
             className="max-w-full aspect-[4.76] w-[154px]"
           />
           <div className="mt-6 text-xl leading-8 text-white">
@@ -523,13 +547,13 @@ export default function LandingPage() {
             <Image 
                  alt=""
               loading="lazy"
-              src="/app-store.png"
+              src={appStore}
               className="shrink-0 max-w-full aspect-[2.94] w-[117px]"
             />
             <Image 
                  alt=""
               loading="lazy"
-              src="/play-store.png"
+              src={playStore}
               className="shrink-0 max-w-full aspect-[2.94] w-[117px]"
             />
           </div>
