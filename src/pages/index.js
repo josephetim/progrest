@@ -14,7 +14,7 @@ import kaligo from "@/assets/kaligo.png";
 import logo from "@/assets/logo.png";
 import marketing from "@/assets/marketing.png";
 import menuine from "@/assets/menuine.png";
-import microsoft from "@/assets/microsoft.png";
+import microsoft from "@/assets/Microsoft.png";
 import mountRain from "@/assets/mount-rain.png";
 import playStore from "@/assets/play-store.png";
 import Play from "@/assets/Play.png";
